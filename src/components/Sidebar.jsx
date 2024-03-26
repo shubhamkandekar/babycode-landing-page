@@ -19,7 +19,7 @@ const Sidebar = () => {
             <span className="text-lg  text-white"> BabyCode</span>
           </div>
           <ul className="pt-4 space-y-1 px-3">
-            <li className="flex items-center gap-x-2 p-2 text-white hover:bg-sky-100 hover:bg-opacity-10 rounded-md">
+            <li className="flex items-center gap-x-2 p-2 text-white bg-sky-100 bg-opacity-15 rounded-md">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -57,7 +57,7 @@ const Sidebar = () => {
             </li>
           </ul>
 
-          <div className="bg-[#E6EFFF] h-56 w-full mt-32 rounded-md ">
+          <div className="bg-gradient-to-tl from-blue-50 via-blue-100 to-blue-100 md:h-56 sm:h-64 w-full mt-32 rounded-md ">
             <div className="p-4">
               <p className="text-indigo-500 text-base font-medium ">
                 Explore Premium
@@ -137,9 +137,9 @@ const Sidebar = () => {
               </p>
             </div>
             <div className="flex justify-between items-center ">
-              <p className="text-sm pl-4 font-medium">Only @ ₹ 299</p>
-              <div className="flex items-center justify-center gap-x-1 w-[45%] p-1.5 h-max rounded-l-2xl bg-[#5917f3] shadow-xl cursor-pointer">
-                <span className="text-white text-sm fon">Buy Now</span>
+              <p className="text-xs pl-4 font-medium">Only @ ₹ 299</p>
+              <div className="flex items-center justify-center gap-x-1  md:w-[45%] p-1.5 h-max rounded-l-2xl bg-[#5917f3] shadow-xl cursor-pointer">
+                <span className="text-white text-sm sm:text-xs fon">Buy Now</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -158,7 +158,7 @@ const Sidebar = () => {
             </div>
 
 
-            <div className="flex pl-5 mx-5 p-1 gap-x-2 mt-10 hover:bg-sky-100 hover:bg-opacity-10 rounded-md">
+            <div className="flex pl-5 mx-5 p-1 gap-x-2 md:mt-5 sm:mt-4 hover:bg-sky-100 hover:bg-opacity-10 rounded-md">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
